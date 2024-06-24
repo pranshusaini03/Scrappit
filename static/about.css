@@ -1,0 +1,140 @@
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.3s ease; /* Add transition to all properties */
+}
+
+/* Body Styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f8f8f8;
+}
+
+/* Header Styles */
+header {
+    background-color: #4169e1; /* Blue */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img {
+    width: 250px; /* Adjust the size as needed */
+    position: absolute;
+    top: -25px;
+    bottom: auto;
+    padding-bottom: 80%;
+    left: 1px;
+}
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Main Section Styles */
+.about-section {
+    padding: 50px 0;
+    position: relative; /* Add position relative */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h1, h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #666;
+    line-height: 1.6;
+}
+
+.brand-name {
+    color: #4169e1; /* Blue color */
+    font-weight: bold;
+}
+
+ul {
+    margin-bottom: 20px;
+}
+
+ul li {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #4169e1; /* Blue */
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+}
+
+/* Image Gallery Styles */
+.image-gallery {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.image-gallery img {
+    max-width: 45%; /* Adjust image width */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow */
+}
+
+/* Navigation Styles */
+nav {
+    position: absolute;
+    top: 20px; /* Adjust top position */
+    right: 20px; /* Adjust right position */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #000; /* Adjust link color */
+    text-decoration: none;
+    transition: all 0.3s ease; /* Add transition effect */
+}
+
+nav ul li a:hover {
+    color: #4169e1; /* Change color on hover */
+}
+.home-link {
+    color: white; /* Set text color to white */
+    text-decoration: none;
+    transition: all 0.3s ease; /* Add transition effect */
+}
+
+.home-link:hover {
+    color: #090909; /* Change color on hover */
+}
+
+

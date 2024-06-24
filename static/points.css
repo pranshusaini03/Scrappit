@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* Light Blue */
+}
+
+header {
+    background-color: #4169e1; /* Blue */
+    color: #fff;
+    text-align: center;
+    padding: 40px;
+}
+
+nav {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 10px;
+}
+
+nav ul li:first-child {
+    margin-left: 0;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.points-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.point-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.point-item:hover {
+    transform: translateY(-5px);
+}
+
+.point-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.point-details {
+    text-align: center;
+}
+
+.redeem-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.redeem-btn:hover {
+    background-color: #0056b3;
+}
+.logo img {
+    width: 120px; /* Increase the size to 150px */
+    position: absolute;
+    top:-25px;
+    bottom:auto;
+    padding-bottom: 30%;
+    left: 1px; /* Shift the logo to the right */
+}
+.points-box {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.points-box span {
+    margin-left: 5px;
+}
+footer {
+    background-color: #007bff;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}

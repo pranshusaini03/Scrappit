@@ -1,0 +1,514 @@
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Light Blue */
+}
+
+/* Header Styles */
+header {
+    background-color: #4169e1; /* Blue */
+    padding: 100px; /* Increased padding */
+    display: flex;
+    justify-content: space-between; /* Align items to the right */
+    align-items: flex-start;
+    height: 80px;
+}
+
+.logo img {
+    width: 250px; /* Adjust the size as needed */
+    position: absolute;
+    top: -25px;
+    bottom: auto;
+    padding-bottom: 30%;
+    left: 1px;
+}
+
+nav {
+    height: calc(140px + 500px); /* Height of the navigation bar including the blurred box */
+}
+
+/* Other existing styles */
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Main Section Styles */
+.main-section {
+    padding: 50px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.info-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-box .left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.info-box .right {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.info-box .right img {
+    width: 100px; /* Adjust size as needed */
+    height: auto;
+}
+
+.why-scrrrapit {
+    margin-top: 50px;
+}
+
+.why-scrrrapit .points {
+    display: flex;
+    justify-content: space-between;
+}
+
+.why-scrrrapit .point {
+    flex-basis: 23%;
+    text-align: center;
+}
+
+.why-scrrrapit .point img {
+    width: 50px;
+}
+
+.book-pickup {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.book-pickup button {
+    padding: 10px 20px;
+    background-color: #4169e1; /* Blue */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #4169e1; /* Blue background color */
+    color: white;
+    text-align: center;
+    padding: 30px; /* Increase padding */
+}
+/* Blurred box styles */
+.blur-box {
+    position: absolute; /* Change to absolute positioning */
+    top: 197px;
+    bottom: 500px; /* Position it at the top of the container */
+    left: 0; /* Position it at the left of the container */
+    width: 100%; /* Make it span the entire width */
+    background-color: rgba(255, 255, 255, 0.8); /* Add a background color with transparency */
+    padding: 5px; /* Add padding for spacing */
+    border-radius: 10px; /* Add rounded corners */
+    text-align: center; /* Center the text */
+    margin-bottom: 5%;
+    z-index: 999; /* Ensure it's on top of other elements */
+}
+
+/* Animation keyframes */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+/* Heading Styles */
+.welcome-heading {
+    font-size: 2.5em; /* Adjust the font size */
+    font-weight: bold; /* Make it bold */
+    color: #494747;
+     /* Darker color */
+}
+
+/* Brand Name Styles */
+.brand-name {
+    color: #4169e1; /* Blue color */
+    font-style: italic; /* Make it italic */
+}
+
+/* Intro Text Styles */
+.intro-text {
+    position: absolute;
+    font-size: 1.2em; /* Adjust the font size */
+    color: #666;
+    text-align: center; /* Slightly darker color */
+}
+/* Button Hover Animation */
+.book-button:hover {
+    transform: translateY(-3px); /* Move button up slightly on hover */
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+
+/* Button Styles */
+.book-button {
+    padding: 15px 30px; /* Adjust padding for button size */
+    font-size: 1.2em; /* Adjust font size */
+    background-color: #4169e1; /* Blue background color */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add border radius */
+    cursor: pointer; /* Change cursor to pointer */
+}
+
+.book-button:focus {
+    outline: none; /* Remove outline on focus */
+}
+
+/* Heading Styles */
+.book-pickup h2 {
+    font-size: 2em; /* Larger font size */
+    color: #333; /* Darker color */
+}
+
+/* Paragraph Styles */
+.book-pickup p {
+    font-size: 1.1em; /* Font size */
+    color: #666; /* Slightly darker color */
+}
+.why-scrrrapit {
+    margin-top: 50px;
+    text-align: center; /* Center align the content */
+}
+.whatsapp-icon {
+    right: auto;
+    width: 20px; /* Adjust the width as needed */
+    height: auto; /* Automatically adjust the height to maintain aspect ratio */
+    transition: transform 0.3s ease; /* Add transition effect */
+}
+
+.whatsapp-icon:hover {
+    transform: scale(1.1); /* Adjust scale as needed */
+}
+
+.point img {
+    width: 50px; /* Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+}
+.center-content {
+    text-align: center;
+}
+.how-it-works {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.how-it-works h2 {
+    font-size: 24px;
+    color: #000000; /* Blue */
+    margin-bottom: 20px;
+}
+
+.how-it-works ul {
+    list-style: none;
+    color: #4169e1;
+}
+
+.how-it-works li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+.how-it-works li:before {
+    content: "\2022"; /* Bullet point */
+    color: #000000; /* Blue */
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+.image-container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px; /* Adjust margin as needed */
+}
+
+.right-image, .left-image {
+    width: 20%; /* Adjust image width as needed */
+    height: auto;
+}
+
+.right-image {
+    position: absolute;
+    top: 100%;
+    right: 0;
+}
+
+.left-image {
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+
+.points p {
+    font-size: 1em; /* Reset font size for all paragraph elements */
+}
+
+.points .point p {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2em; /* Increase font size for paragraph elements inside .point */
+}
+.how-it-works li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #4169e1; /* Blue color */
+    font-family: Arial, sans-serif; /* Font family */
+    font-weight: bold; /* Make it bold */
+}
+
+
+.dropdown-menu {
+    list-style: none;
+    padding: 0;
+}
+
+.dropdown-item {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.explanation {
+    display: none;
+}
+
+.dropdown-item:hover .explanation {
+    display: block;
+}
+
+.reviews {
+    display: flex;
+    justify-content: space-between;
+}
+
+.review {
+    width: 30%; /* Adjust as needed */
+    padding: 20px;
+    background-color: #f9f9f9; /* Light gray background */
+    border-radius: 10px;
+    text-align: center;
+}
+
+.review img {
+    width: 100px; /* Adjust image size */
+    border-radius: 50%; /* Make the image circular */
+    margin-bottom: 10px;
+}
+
+.review p {
+    font-size: 14px;
+    color: #666; /* Dark gray text color */
+}
+.faq-section {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.faq-section h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333; /* Darker color */
+}
+
+.faq {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.question {
+    width: 45%;
+    margin: 20px;
+}
+
+.question h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #4169e1; /* Blue color */
+    cursor: pointer;
+}
+
+.answer {
+    display: none;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #f0f8ff; /* Light blue */
+    border-radius: 5px;
+}
+
+.question:hover .answer {
+    display: block;
+}
+.welcome-heading, .intro-text {
+    opacity: 0; /* Initially hide the elements */
+    animation: fadeIn 1.5s forwards; /* Apply fadeIn animation */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0; /* Start with 0 opacity */
+    }
+    to {
+        opacity: 10; /* Transition to full opacity */
+    }
+}
+
+.image-container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    transition: transform 0.5s ease; /* Add transition for smooth movement */
+}
+
+.right-image, .left-image {
+    width: 20%; /* Adjust image width as needed */
+    height: auto;
+    transition: transform 0.5s ease; /* Add transition for smooth movement */
+}
+
+.image-container:hover .right-image {
+    transform: translateX(-20px); /* Move the right image slightly to the right on hover */
+}
+
+.image-container:hover .left-image {
+    transform: translateX(20px); /* Move the left image slightly to the left on hover */
+}
+.welcome-heading {
+    position: relative;
+    cursor: pointer; /* Change cursor to pointer */
+}
+
+.welcome-heading::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px; /* Height of the wave */
+    background-image: linear-gradient(to right, #4169e1, #ffd700); /* Gradient color */
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: visibility 0s, transform 0.5s ease;
+}
+
+.welcome-heading:hover::after {
+    visibility: visible;
+    transform: scaleX(1);
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: #4169e1;
+    transition: transform 0.3s ease;
+}
+
+nav ul li a:hover {
+    transform: scale(0.95);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.why-scrrrapit .point {
+    transition: transform 0.3s ease;
+}
+
+.why-scrrrapit .point:hover {
+    transform: scale(1.05);
+}
+.review {
+    width: 30%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.review:hover {
+    transform: translateY(-5px); /* Adjust as needed */
+}
+.add-review-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Define the keyframes */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Apply animation to the button */
+.btn {
+    display: inline-block;
+    padding: 20px 40px;
+    background-color: #ffd700; /* Gold color */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    animation: pulse 1s infinite alternate; /* Apply the pulse animation */
+}
+
+.btn:hover {
+    background-color: #ffcc00; /* Darker gold color on hover */
+}
+
+

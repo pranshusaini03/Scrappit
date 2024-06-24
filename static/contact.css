@@ -1,0 +1,120 @@
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: 'Helvetica', sans-serif;
+    background-color: #f8f8f8;
+}
+
+/* Header Styles */
+header {
+    background-color: #4169e1; /* Blue */
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 120px; /* Increase the size to 150px */
+    position: absolute;
+    top:-25px;
+    bottom:auto;
+    padding-bottom: 30%;
+    left: 1px; /* Shift the logo to the right */
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Main Section Styles */
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+hr {
+    border: none;
+    height: 10px;
+    background-color: #ffffff; /* Light blue */
+}
+
+.form-container {
+    text-align: center;
+}
+
+.form-container table {
+    width: 25%;
+    margin: auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #1033d1;
+    border-radius: 5px;
+}
+
+form .hey {
+    background-color: #4169e1; /* Blue */
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+footer {
+    background-color: #4169e1; /* Blue color */
+    color: white; /* Text color */
+    text-align: center; /* Center-align the text */
+    padding: 30px; /* Add some padding for spacing */
+}
+.contact-header {
+    font-family: 'Helvetica', sans-serif;
+    text-align: center;
+    animation: textAnimation 2s infinite alternate; /* Apply animation */
+}
+
+@keyframes textAnimation {
+    0% {
+        transform: scale(1); /* Initial scale */
+        color: #333; /* Initial color */
+    }
+    50% {
+        transform: scale(1.1); /* Scale up */
+        color: #4169e1; /* Change color */
+    }
+    100% {
+        transform: scale(1); /* Back to normal scale */
+        color: #333; /* Back to initial color */
+    }
+}
+

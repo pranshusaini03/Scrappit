@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* Light Blue */
+}
+
+header {
+    background-color: #4169e1; /* Blue */
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    height: 60px;
+}
+/* CSS to shift the home button to the top right */
+nav {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+/* CSS to divide items into three columns */
+.price-table {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.price-item {
+    flex-basis: 30%; /* Each item takes up 30% of the container */
+    margin-bottom: 20px; /* Adjust margin as needed */
+    text-align: center; /* Center align item contents */
+    transition: transform 0.3s ease; /* Transition effect */
+}
+
+.price-item img {
+    width: 100%;
+    max-width: 150px; /* Adjust image width as needed */
+    height: auto;
+}
+
+/* Hover effect */
+.price-item:hover {
+    transform: translateY(-5px); /* Move item up on hover */
+}
+
+/* Additional styles */
+ 
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: #4169e1; /* Blue color */
+    color: white; /* Text color */
+    text-align: center; /* Center-align the text */
+    padding: 20px; /* Add some padding for spacing */
+}
+.logo {
+    width: 130px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    position: absolute;
+    top: -10px;
+    left: 10px;
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scrap Prices - scRRRapit</title>
+    <link rel="stylesheet" href="/static/price.css">
+    <style>
+        .price-table {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .price-item {
+            flex-basis: 30%; /* Each item takes up 30% of the container */
+            margin-bottom: 20px; /* Adjust margin as needed */
+            text-align: center; /* Center align item contents */
+            transition: transform 0.3s ease; /* Transition effect */
+        }
+
+        .price-item img {
+            width: 100%;
+            max-width: 150px; /* Adjust image width as needed */
+            height: auto;
+        }
+
+        /* Hover effect */
+        .price-item:hover {
+            transform: translateY(-5px); /* Move item up on hover */
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <header>
+            <img src="/static/logo1.png" alt="Logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="/">home</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="/scrap_price">Scrap Price</a></li>
+                    <li><a href="/educational_resourses">Educational Resources</a></li> <!-- Added -->
+                    <li><a href="/scrrrap_points">scRRRap Points</a></li> <!-- Added -->
+                </ul>
+            </nav>
+        </header>
+        
+    </header>
+    <section class="price-section">
+        <div class="container">
+            <h1>Scrap Prices</h1>
+            <div class="price-table">
+                <div class="price-item">
+                    <img src="/static/news.png" alt="Newspaper">
+                    <p>Newspaper</p>
+                    <p>Rs 12-15 per kg</p>
+                </div>
+                <div class="price-item">
+                    <img src="/static/white.png" alt="White Paper">
+                    <p>White Paper</p>
+                    <p>Rs 20-25 per kg</p>
+                </div>
+                <div class="price-item">
+                    <img src="/static/cardboard.png" alt="Cardboard">
+                    <p>Cardboard</p>
+                    <p>Rs 8-10 per kg</p>
+                </div>
+                <div class="price-item">
+                    <img src="/static/plastic.png"Plastic">
+                    <p>Plastic</p>
+                    <p>Rs 10 per kg</p>
+                </div>
+                <div class="price-item">
+                    <img src="/static/iron.png" alt="Iron">
+                    <p>Iron</p>
+                    <p>Rs 25-30 per kg</p>
+                </div>
+                <div class="price-item">
+                    <img src="/static/steel.jpeg.jpg" alt="Steel">
+                    <p>Steel</p>
+                    <p>Rs 35 per kg</p>
+                </div>
+                <div class="price-item">
+                    <img src="/static/cane.png" alt="Aluminum">
+                    <p>Aluminum</p>
+                    <p>Rs 100 per kg</p>
+                </div>
+                <div class="price-item">
+                    <img src="/static/brass.png" alt="Brass">
+                    <p>Brass</p>
+                    <p>Rs 300 per kg</p>
+                </div>
+                <div class="price-item">
+                    <img src="/static/copper.png" alt="Copper">
+                    <p>Copper</p>
+                    <p>Rs 400 per kg</p>
+                </div>
+                <div class="price-item">
+                    <img src="/static/ac.png" alt="AC">
+                    <p>AC</p>
+                    <p>Rs 3500-4500 per piece</p>
+                </div>
+                <div class="price-item">
+                    <img src="/static/fridge.png" alt="Fridge">
+                    <p>Fridge</p>
+                    <p>Rs 1000 per piece</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 scRRRap-it. All rights reserved.</p>
+    </footer>
+</body>
+</html>

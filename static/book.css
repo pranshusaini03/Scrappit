@@ -1,0 +1,245 @@
+.appointment-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #007bff; /* Blue theme */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #fff; /* White text */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0056b3; /* Light blue button */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #004080; /* Darker blue on hover */
+}
+/* Style the dropdown container */
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #ffffff;
+    color: #333;
+}
+
+/* Style the options */
+select option {
+    padding: 5px;
+    font-size: 14px;
+}
+
+/* Style the selected options */
+select option:checked {
+    background-color: #007bff;
+    color: #fff;
+}
+.book-appointment {
+    font-family: Arial, sans-serif; /* Change font family */
+    animation: fadeInUp 1.5s ease; /* Add animation */
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+/* Navbar Styles */
+body {
+    overflow: hidden;
+    overflow-x: hidden; /* Disable horizontal overflow */
+    overflow-y: scroll;
+    
+}
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.navbar {
+    width: 100%;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 0; /* Set margin-left to 0 */
+}
+
+
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    left: 10px;
+    padding-right: 50px;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Footer Styles */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+.appointment-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #007bff; /* Blue theme */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif; /* Classy font */
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #fff; /* White text */
+    font-size: 18px; /* Classy font size */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px; /* Classy font size */
+    background-color: #fff; /* White background for input fields */
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    width: 100%;
+    padding: 12px 20px; /* Increase padding for a more prominent look */
+    background-color: #0056b3; /* Light blue button */
+    color: #fff;
+    border: none;
+    border-radius: 25px; /* Increase border-radius for a rounded button */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 18px; /* Classy font size */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+    outline: none; /* Remove default focus outline */
+}
+
+button:hover {
+    background-color: #004080; /* Darker blue on hover */
+}
+
+button:active {
+    transform: translateY(1px); /* Add slight downward animation on click */
+}
+
+/* Add animation to the button */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+button:focus {
+    animation: pulse 1s infinite; /* Apply pulse animation on focus */
+}
+
+
+select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px; /* Classy font size */
+    background-color: #fff; /* White background for select dropdown */
+}
+
+/* Add animation to the form */
+.appointment-form {
+    animation: fadeInUp 1.5s ease;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.logo img {
+    width: 120px; /* Increase the size to 150px */
+    position: absolute;
+    top:-25px;
+    bottom:auto;
+    padding-bottom: 30%;
+    left: 1px; /* Shift the logo to the right */
+}
+
+
+
